@@ -7,7 +7,7 @@ void main() {
         centerTitle: true,
         backgroundColor: Colors.blue,
         title: Text(
-          "위젯 상하좌우 배치 윈도우",
+          "위젯 상하좌우 배치",
           style: TextStyle(color: Colors.white),
         ),
       ),
@@ -75,7 +75,7 @@ class Body extends StatelessWidget {
                     height: 100,
                     margin: EdgeInsets.symmetric(vertical: 8),
                     child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
+                      mainAxisAlignment: MainAxisAlignment.start,
                       children: [
                         Text("4"),
                       ],
